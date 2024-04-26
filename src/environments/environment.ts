@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  baseUrl: 'https://one-piece-episodes.p.rapidapi.com/one_piece/',
+
+  seasons: 'seasons/',
+  episodes_by_season: 'episodes_by_season/',
+  episode: 'episode/'
 };
 
 /*
